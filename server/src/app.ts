@@ -6,11 +6,4 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.get("/", (req, res) => {
-  res.json({
-    success: true,
-    message: "Server is fuck up",
-  });
-});
-
 export default app;
